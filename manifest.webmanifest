@@ -1,0 +1,16 @@
+{
+  "name": "Hookly – Des scripts qui sonnent comme toi",
+  "short_name": "Hookly",
+  "description": "Scripts de Reels, accroches, carousels et planning de 7 jours, écrits avec tes mots.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F5D5D3",
+  "theme_color": "#FFF6EC",
+  "lang": "fr",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
