@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Hookly – Des scripts qui sonnent comme toi</title>
 <meta name="description" content="Hookly transforme tes mots en scripts de Reels, accroches, carousels, légendes et planning de 7 jours, prêts à publier.">
-<meta name="theme-color" content="#FFF6EC">
+<meta name="theme-color" content="#FFFFFF">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Hookly – Des scripts qui sonnent comme toi">
 <meta property="og:description" content="Scripts de Reels, accroches, carousels et planning de 7 jours, écrits avec tes mots.">
@@ -18,7 +18,7 @@
 <meta name="apple-mobile-web-app-title" content="Hookly">
 <style>
 /* Pour changer les couleurs de la marque, modifie ces variables */
-:root{--cream:#FFF6EC;--beige:#F5D5D3;--peach:#FFE08A;--terra:#BF2D63;--terra-l:#F2A3BE;--sage:#D9A441;--sage-d:#8A5F12;--ink:#4A1626;--muted:#7A4A55;--line:#EBB8BC;color-scheme:light;box-sizing:border-box}
+:root{--cream:#FFFFFF;--beige:#FBF6F2;--peach:#F6EEEA;--terra:#BF2D63;--terra-l:#FCE6EE;--sage:#BF2D63;--sage-d:#BF2D63;--ink:#3A1420;--muted:#6B5A60;--line:#EEE2DC;color-scheme:light;box-sizing:border-box}
 *{box-sizing:border-box}
 body{margin:0;background:var(--beige);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 h1,h2,h3{font-family:Georgia,"Palatino Linotype",serif;font-weight:700;margin:0}
@@ -86,6 +86,20 @@ input:focus,textarea:focus,select:focus,button:focus-visible{outline:3px solid v
 .wnav{display:flex;gap:10px;align-items:center;justify-content:space-between;margin:4px 0 16px}.wnav .go{width:auto;flex:1;max-width:280px;margin-left:auto}
 .ferr{color:#A32A1E;font-weight:700;font-size:.88rem;margin:6px 0 0}.ferr:empty{display:none}.req{color:var(--terra)}
 input[aria-invalid=true],textarea[aria-invalid=true]{border-color:#A32A1E;background:#FFF0EE}
+/* ---------- Charte "pro" : fond neutre, cartes blanches, un seul accent rose, jaune réservé au logo et aux conseils ---------- */
+body{font-family:HkSans,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+h1,h2,h3,.top b,.tip b,#hkcl h2,.hkbox h3,.pcard b,#gate h2,.hlt{font-family:HkSerif,Georgia,"Palatino Linotype",serif!important;letter-spacing:-.01em}
+header{background:rgba(255,255,255,.94);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.panel,.card,.feat li,#hkcl,details.copt,.ch,.pcard,.covb,.list{background:#fff;border:1px solid var(--line);box-shadow:0 1px 2px rgba(58,20,32,.04),0 4px 16px rgba(58,20,32,.04)}
+.card{border-left:1px solid var(--line)}
+.chip{background:#fff;border:1px solid var(--line)}
+.chip[aria-pressed="true"],.st.on{background:var(--terra-l);border-color:var(--terra);color:#8E1E47}
+input[type=text],textarea,select,input[type=search]{background:#fff;border:1px solid #E4D6D0}
+.copy.ai{background:#FFF3D6}
+.tip{background:#FFF7E3;border:1px solid #F5E3B5}
+.bar{background:#F1E6E1}
+#gate{background:var(--beige)!important}#gate .gb{background:#fff!important;border:1px solid var(--line)!important}#gate input{border:1px solid #E4D6D0!important}
+.tk,.st b{background:#F1E6E1;color:var(--muted)}li.ok .tk,.st.on b,.st.ok b{background:var(--terra);color:#fff}
 details.tip{padding:10px 16px}details.tip summary{cursor:pointer;list-style:none}details.tip summary::-webkit-details-marker{display:none}details.tip summary::after{content:" ▾";color:var(--muted)}details.tip[open] summary{margin-bottom:6px}
 #tb{flex-wrap:nowrap;overflow-x:auto;position:sticky;top:var(--hh,56px);z-index:4;background:var(--beige);margin:8px -16px 6px;padding:8px 16px;scrollbar-width:none;scroll-snap-type:x proximity}#tb::-webkit-scrollbar{display:none}#tb .chip{flex:none;white-space:nowrap;scroll-snap-align:start}
 @media(min-width:720px){#tb{flex-wrap:wrap;margin:8px 0 6px;padding:8px 0}}
